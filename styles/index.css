@@ -227,3 +227,49 @@ nav>ul>li>button {
   cursor: pointer;
 }
 /* end of program styling */
+
+/* Market-ready section styling */
+#market-ready {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+  margin-bottom: 90px;
+}
+
+#market-ready>img {
+  height: 42%;
+  width: 42%;
+}
+
+#market-ready>.market-text {
+  margin-left: 100px;
+}
+
+#market-ready>.market-text>.market-left>h1 {
+  font-size: 5rem;
+  margin-left: -40px;
+}
+
+#market-ready>.market-text>.market-left>h1:first-child {
+  font-weight: normal;
+}
+
+#market-ready>.market-text>.market-left>#market-inBetween {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+#market-ready>.market-text>.market-right>p {
+  margin: 1.6rem 0;
+  font-size: 2.7rem;
+  line-height: 40px;
+}
+
+#market-ready>.market-text>.market-right>a {
+  color: #18ea19;
+  text-decoration: none;
+  border-bottom: #18ea19 solid 1px;
+  font-size: 2.2rem;
+}
+/* end of market-ready style section */
