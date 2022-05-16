@@ -477,3 +477,10 @@ nav>ul>li>button {
 }
 
 /* End of footer */
+
+/* Responsiveness */
+@media screen and (max-width: 825px) {
+  #showCase>nav>ul {
+    visibility: hidden;
+  }
+}
