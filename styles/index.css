@@ -523,4 +523,24 @@ nav>ul>li>button {
     font-size: 20px;
   }
 
+  #strategic-partners>.strategic-img {
+    flex-direction: column;
+  }
+
+  #strategic-partners>.strategic-img {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #strategic-partners>.strategic-img>img {
+    width: 40%;
+  }
+
+  #subscription>.subs-title>h3 {
+    font-size: 5vw;
+  }
+
+  #subscription>button {
+    font-size: 3vw;
+  }
 }
