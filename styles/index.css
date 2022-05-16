@@ -63,7 +63,7 @@ nav>ul>li>button {
 
 /* Showcase */
 #showCase {
-  background-image: url("./assets/images/team_pictures/showcaseImage.jpg");
+  background-image: url("../assets/images/team_pictures/showcaseImage.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
