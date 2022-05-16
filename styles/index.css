@@ -362,3 +362,9 @@ nav>ul>li>button {
   padding-bottom: 12px;
 }
 /* end of funding partners section */
+
+.horizontal-rule {
+  padding: 0 7vw;
+  color: #000;
+}
+
