@@ -59,6 +59,7 @@ nav>ul>li>button {
   padding: 12px 17px;
   border-radius: 5px;
 }
+
 /* End of top navigation */
 
 /* Showcase */
@@ -125,6 +126,7 @@ nav>ul>li>button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 /* End of showcase */
 
 /* Statistics styling */
@@ -150,6 +152,7 @@ nav>ul>li>button {
 #statistics>.stat-item>h1:not(firstchild) {
   font-size: 2.5rem;
 }
+
 /* End of statistics */
 
 /* skills styling */
@@ -195,6 +198,7 @@ nav>ul>li>button {
   border-bottom: #18ea19 solid 1px;
   font-size: 2.2rem;
 }
+
 /* End of skills section */
 
 /* programs section styling */
@@ -226,6 +230,7 @@ nav>ul>li>button {
   padding: 20px 15px;
   cursor: pointer;
 }
+
 /* end of program styling */
 
 /* Market-ready section styling */
@@ -272,6 +277,7 @@ nav>ul>li>button {
   border-bottom: #18ea19 solid 1px;
   font-size: 2.2rem;
 }
+
 /* end of market-ready style section */
 
 /* content wrapper one */
@@ -298,6 +304,7 @@ nav>ul>li>button {
   height: 100%;
   width: 100%;
 }
+
 /* end of content wrapper one */
 
 /* review section */
@@ -312,6 +319,7 @@ nav>ul>li>button {
   width: 80%;
   padding-bottom: 12px;
 }
+
 /* end of review section */
 
 /* In the media section */
@@ -340,6 +348,7 @@ nav>ul>li>button {
   height: 100%;
   padding: 17px 0;
 }
+
 /* end of in the media section */
 
 /* Funding Partners Section */
@@ -361,6 +370,7 @@ nav>ul>li>button {
   width: 97%;
   padding-bottom: 12px;
 }
+
 /* end of funding partners section */
 
 .horizontal-rule {
@@ -393,6 +403,7 @@ nav>ul>li>button {
   padding: 20px 12px;
   margin-bottom: 10px;
 }
+
 /* end of strategic partners section */
 
 /* subscribe section */
@@ -420,4 +431,49 @@ nav>ul>li>button {
   border-radius: 7px;
   margin-bottom: 70px;
 }
+
 /* end of subscription session */
+
+/* footer */
+#footer-id {
+  padding: 0 7vw;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #000;
+}
+
+#footer-id>.privacy>p>a {
+  color: #18ea19;
+  padding: 40px 0;
+  padding-left: 20px;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#footer-id>div>p {
+  color: #fff;
+  padding: 40px 0;
+  padding-left: 20px;
+  font-size: 1.6rem;
+}
+
+#footer-id>.footer-logo>ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer-id>.footer-logo>ul>li {
+  padding: 40px 10px;
+  font-size: 23px;
+}
+
+#footer-id>.footer-logo>ul>li>a {
+  color: #fff;
+}
+
+#footer-id>.footer-logo>ul>li>a:hover {
+  color: rgba(150, 150, 150, 0.5)
+}
+
+/* End of footer */
