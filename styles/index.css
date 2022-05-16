@@ -341,3 +341,24 @@ nav>ul>li>button {
   padding: 17px 0;
 }
 /* end of in the media section */
+
+/* Funding Partners Section */
+#funding-partners {
+  padding: 0 5.4vw;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+#funding-partners>.funding-title {
+  text-align: center;
+  font-size: 3.7rem;
+  padding-top: 50px;
+  padding-bottom: 38px;
+}
+
+#funding-partners>.funding-img>img {
+  height: 100%;
+  width: 97%;
+  padding-bottom: 12px;
+}
+/* end of funding partners section */
