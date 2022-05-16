@@ -484,3 +484,22 @@ nav>ul>li>button {
     visibility: hidden;
   }
 }
+
+@media screen and (max-width: 750px) {
+  #statistics {
+    flex-direction: column;
+  }
+
+  #skills,
+  #market-ready {
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  #skills>img,
+  #market-ready>img {
+    width: 100%;
+    padding: 5%;
+  }
+}
