@@ -368,3 +368,29 @@ nav>ul>li>button {
   color: #000;
 }
 
+/* strategic partners section */
+#strategic-partners {
+  padding: 0 5vw;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+#strategic-partners>.strategic-title>h3 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 40px;
+  padding-bottom: 38px;
+}
+
+#strategic-partners>.strategic-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#strategic-partners>.strategic-img>img {
+  object-fit: cover;
+  width: 14%;
+  padding: 20px 12px;
+  margin-bottom: 10px;
+}
+/* end of strategic partners section */
