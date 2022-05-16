@@ -314,3 +314,30 @@ nav>ul>li>button {
 }
 /* end of review section */
 
+/* In the media section */
+#in-the-media {
+  background-color: #e6e6e6;
+  padding: 0 5.4vw;
+  padding-bottom: 42px;
+}
+
+#in-the-media>.media-title {
+  text-align: center;
+  font-size: 3.7rem;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#in-the-media>.media-partners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#in-the-media>.media-partners>div>img {
+  width: 310px;
+  height: 100%;
+  padding: 17px 0;
+}
+/* end of in the media section */
