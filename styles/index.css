@@ -299,3 +299,17 @@ nav>ul>li>button {
   width: 100%;
 }
 /* end of content wrapper one */
+
+/* review section */
+#review {
+  text-align: center;
+  padding: 0 14.5vw;
+  padding-top: 60px;
+}
+
+#review>img {
+  height: 100%;
+  width: 80%;
+  padding-bottom: 12px;
+}
+/* end of review section */
