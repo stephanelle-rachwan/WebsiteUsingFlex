@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* to make 1rem = 10px | 1rem = 16px by default */
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul>li {
+  list-style: none;
+}
+
+
+/* Top Navigation */
+nav {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 7%;
+  position: relative;
+  z-index: 3;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 700px;
+  justify-content: space-evenly;
+}
+
+nav>ul>li {
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+nav>ul>li#active {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+nav>ul>li>button {
+  background-color: #0d0;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  padding: 12px 17px;
+  border-radius: 5px;
+}
+/* End of top navigation */
+
+/* Showcase */
+#showCase {
+  background-image: url("./assets/images/team_pictures/showcaseImage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+/* Allow all elements inside showcase over the overlay */
+#showCase>* {
+  position: relative;
+  z-index: 2;
+}
+
+#showCase::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 120vh;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Assigning a white color to all the elements inside the showcase-mainText */
+.showcase-mainText>* {
+  color: #fff;
+}
+
+.showcase-mainText {
+  /* dynamic width */
+  width: fit-content;
+  margin-top: 260px;
+  margin-left: 100px;
+}
+
+.showcase-mainText>h1 {
+  font-size: 6.3rem;
+}
+
+.showcase-mainText>h1#showcase-techJobs {
+  margin-top: -15px;
+  font-weight: normal;
+}
+
+.showcase-mainText>p {
+  margin-top: 25px;
+  font-size: 2.7rem;
+  margin-bottom: 35px;
+  line-height: 40px;
+}
+
+.showcase-mainText>button {
+  background-color: #0d0;
+  color: #fff;
+  font-size: 1.8rem;
+  border: none;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* End of showcase */
