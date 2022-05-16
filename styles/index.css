@@ -126,3 +126,28 @@ nav>ul>li>button {
   cursor: pointer;
 }
 /* End of showcase */
+
+/* Statistics styling */
+#statistics {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  width: 76%;
+  margin: auto;
+}
+
+#statistics>.stat-item {
+  text-align: center;
+  padding-bottom: 115px;
+}
+
+#statistics>.stat-item>h1:first-child {
+  color: #18ea19;
+  font-size: 5.8rem;
+  padding-bottom: 40px;
+}
+
+#statistics>.stat-item>h1:not(firstchild) {
+  font-size: 2.5rem;
+}
+/* End of statistics */
