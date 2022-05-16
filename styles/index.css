@@ -196,3 +196,34 @@ nav>ul>li>button {
   font-size: 2.2rem;
 }
 /* End of skills section */
+
+/* programs section styling */
+#programs {
+  background-color: #18ea19;
+  padding: 0 7vw;
+  height: 100vh;
+}
+
+#programs>.program-title {
+  color: #fff;
+  line-height: 1.196;
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#programs>.program-title>h2 {
+  font-weight: normal;
+}
+
+#programs>.program-img {
+  display: flex;
+  justify-content: center;
+}
+
+#programs>.program-img>img {
+  width: 34%;
+  padding: 20px 15px;
+  cursor: pointer;
+}
+/* end of program styling */
